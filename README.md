@@ -5,7 +5,17 @@ This project enables real-time clipboard synchronization between a macOS device 
 ## Project Structure
 
 - `macos-client/`: Contains the Python script for the macOS client.
-- `android-client/`: (Coming soon/Placeholder)
+- `android-client/`: Contains the Android Studio project for the Android client.
+
+## Installation (Android)
+
+1. **Clone the repository**:
+2. **Open in Android Studio**: Open the `android-client` folder.
+3. **Firebase Configuration**:
+   - Download `google-services.json` from your Firebase console.
+   - Place it in `android-client/app/`.
+4. **Build and Run**: Deploy the app to your Android device.
+5. **Permissions**: Enable **Accessibility Service** for the app to allow it to monitor and update the clipboard in the background.
 
 ## Installation (macOS)
 

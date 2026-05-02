@@ -1,2 +1,6 @@
 .venv/
 macos-client/serviceaccount.json
+android-client/app/google-services.json
+macos-client/dist/
+macos-client/build/
+*.dmg

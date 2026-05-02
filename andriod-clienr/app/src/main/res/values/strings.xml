@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ClipboardSync</string>
+    <string name="accessibility_description">Used to sync clipboard data to Firebase in the background.</string>
+</resources>

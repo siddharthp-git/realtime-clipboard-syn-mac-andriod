@@ -7,22 +7,16 @@ This project enables real-time clipboard synchronization between a macOS device 
 - `macos-client/`: Contains the Python script for the macOS client.
 - `android-client/`: (Coming soon/Placeholder)
 
-## Setup for macOS Client
+## Installation (macOS)
 
-1. **Install Dependencies**:
-   ```bash
-   pip install pyperclip firebase-admin
-   ```
+1. **Download the DMG**: Download `ClipboardSync.dmg` from the releases (or use the one generated).
+2. **Install**: Open the DMG and drag `Clipboard Sync` to your Applications folder.
+3. **Run**: Launch `Clipboard Sync` from your Applications. It runs in the background with no dock icon.
+4. **Auto-Start**: To have it start automatically when you log in:
+   - Go to **System Settings** > **General** > **Login Items**.
+   - Click the **+** button and select `Clipboard Sync` from your Applications folder.
 
-2. **Firebase Configuration**:
-   - Obtain a `serviceaccount.json` file from your Firebase console.
-   - Place `serviceaccount.json` inside the `macos-client/` directory.
-   - **Note**: This file is ignored by Git for security reasons.
-
-3. **Run the Client**:
-   ```bash
-   python macos-client/listner.py
-   ```
+## Manual Setup (for Development)
 
 ## Security Warning
 
